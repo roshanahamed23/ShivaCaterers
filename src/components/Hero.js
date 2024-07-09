@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="absolute inset-0 bg-black bg-opacity-25 flex flex-col gap-4 items-center justify-center text-white text-center px-4">
             <h1
               className="text-2xl md:text-4xl mb-4 font-bold text-center"
-              style={{ color: "#990011FF" }}
+              style={{ color: "#DAA520" }}
             >
               Welcome to Shiva Caterers
             </h1>
@@ -29,10 +29,10 @@ const Hero = () => {
               className="text-lg md:text-xl mb-4 font-semibold"
               style={{ color: "#FCF6F5FF" }}
             >
-              Taste is the sign of life !
+              Taste is the sign of life!
             </h2>
 
-            <div className="text-xl md:text-4xl" style={{ color: "#ED2B33FF" }}>
+            <div className="text-xl md:text-4xl" style={{ color: "#DAA520" }}>
               <Typewriter
                 options={{
                   strings: [
