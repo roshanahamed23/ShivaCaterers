@@ -159,13 +159,14 @@ const FounderSection = () => (
       <p className="font-monserrat text-black font-bold text-lg leading-relaxed mt-4">
         It all started in 2008, with a small team and a big dream. Over the
         years, we have grown and evolved, always staying true to our core values
-        of quality and service. Under Mr. Sunil Yadav leadership, Shiva Caterers
-        has not only flourished but also set new standards in the catering
-        industry. With a keen focus on innovation and customer satisfaction, we
-        have expanded our services to cater to a diverse range of events, from
-        intimate gatherings to large-scale celebrations. Our team of dedicated
-        professionals continues to uphold our founder vision, ensuring that each
-        culinary creation reflects our commitment to quality and creativity.
+        of quality and service. Under Mr. Sunil Yadav's leadership, Shiva
+        Caterers has not only flourished but also set new standards in the
+        catering industry. With a keen focus on innovation and customer
+        satisfaction, we have expanded our services to cater to a diverse range
+        of events, from intimate gatherings to large-scale celebrations. Our
+        team of dedicated professionals continues to uphold our founder's
+        vision, ensuring that each culinary creation reflects our commitment to
+        quality and creativity.
       </p>
       <p className="font-monserrat text-black font-bold text-lg leading-relaxed mt-4">
         Throughout our journey, we have garnered numerous accolades and built
@@ -237,15 +238,16 @@ const AboutUsPage = () => {
 
   return (
     <Layout>
-      <div className="bg-rose-50 py-8 px-4" style={pageStyles}>
+      <div className="bg-rose-50 py-9 px-8" style={pageStyles}>
         <h1
           style={{
             fontFamily: "Garamond, serif",
-            fontSize: "50px",
+            fontSize: "49px",
             fontWeight: "bold",
-            color: "black",
+            color: "goldenrod",
             textAlign: "center",
           }}
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
         >
           Welcome to Shiva Caterers
         </h1>
@@ -257,7 +259,7 @@ const AboutUsPage = () => {
           <motion.div
             animate={{ y: [0, -30, 0, -30, 0] }}
             transition={{ duration: 4, repeat: Infinity }}
-            className="p-5 lg:p-9 text-center lg:text-left transform hover:scale-105 duration-300 ease-linear brightness-50 flex items-center justify-center font-merriweather text-6xl text-red"
+            className="p-5 lg:p-9 text-center lg:text-left transform hover:scale-105 duration-300 ease-linear brightness-50 flex items-center justify-center font-merriweather text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-red"
           >
             Why Choose Us
           </motion.div>
@@ -271,3 +273,4 @@ const AboutUsPage = () => {
 };
 
 export default AboutUsPage;
+
