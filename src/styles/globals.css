@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .input {
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal w-full text-slate-400 pl-5 max-sm:p-5 outline-none sm:border-gray-500 rounded-md p-4 border max-sm:border-slate-700 max-sm:rounded-full;
+  }
+  .btn-primary{
+    @apply px-6 py-4 bg-[#EC0307] font-semibold rounded-md text-white font-merriweather;
+  }
+  td{
+   @apply pr-2.5 pb-2 font-montserrat;
+   } 
+}
+
+@layer utilities {
+  td{
+    @apply pr-2.5 pb-2 font-montserrat;
+    } 
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .padding-x {
+    @apply sm:px-16 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+
+  .mypadding{
+    @apply px-16 py-8 max-sm:px-4 py-6;
+  }
+}
+.shadow-bottom {
+ box-shadow: 0 4px 8px -1px rgba(0, 0, 0, 0.1), 0 2px 16px -2px rgba(0, 0, 0, 0.1);
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+/* styles/imageGallery.css */
+
+/* Style for the entire gallery container */
+.image-gallery {
+  margin-top: 20px; /* Example margin */
+}
+
+/* Style for the image thumbnails */
+.image-gallery-thumbnail {
+  border: 2px solid #ddd; /* Example border */
+  border-radius: 8px; /* Example border radius */
+  margin-right: 10px; /* Example margin */
+}
+
+/* Style for the selected thumbnail */
+.image-gallery-thumbnail.active {
+  border-color: #ff6347; /* Example active thumbnail border color */
+}
+
+/* Style for the gallery images */
+.image-gallery-slide img {
+  max-height: 500px; /* Example max height */
+  object-fit: cover; /* Example object-fit property */
+}
+
+/* global.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive Header Styles */
+@media (max-width: 640px) {
+  .shadow-bottom {
+    box-shadow: 0 4px 2px -2px gray;
+  }
+}
+
+/* Hero Styles */
+.bg-rose-50 {
+  background-color: #FFF1F0;
+}
+
+.text-cyan-50 {
+  color: #E0FFFF;
+}
+
+.hover\\:text-red:hover {
+  color: #FF0000;
+}
+
+.btn-primary {
+  background-color: #FFD700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+}
+
+/* global.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Responsive Header Styles */
+@media (max-width: 640px) {
+  .shadow-bottom {
+    box-shadow: 0 4px 2px -2px gray;
+  }
+}
+
+/* Hero Styles */
+.bg-rose-50 {
+  background-color: #FFF1F0;
+}
+
+.text-cyan-50 {
+  color: #E0FFFF;
+}
+
+.hover\\:text-red:hover {
+  color: #FF0000;
+}
+
+.btn-primary {
+  background-color: #ff0800;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+}

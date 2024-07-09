@@ -1,0 +1,37 @@
+/* Hero.module.css */
+.heroContent {
+    animation: fadeIn 1.5s ease-out;
+  }
+  
+  .heroImage {
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .heroImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .textContainer {
+    animation: fadeInUp 1.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }  
